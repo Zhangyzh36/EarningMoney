@@ -58,6 +58,13 @@ public class User{
         this.creditVal = creditVal;
     }
 
+    public User() {
+        avator = "";
+        userType = 0;
+        tags = "";
+        creditVal = "";
+    }
+
     public int getUserId() {
         return userId;
     }
@@ -184,5 +191,9 @@ public class User{
 
     public void setCreditVal(String creditVal) {
         this.creditVal = creditVal;
+    }
+
+    public void setStuId(String stuId) {
+        this.stuId = stuId;
     }
 }
